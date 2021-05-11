@@ -1,0 +1,77 @@
+<%- include("header") -%>
+    <title>Student Info</title>
+</head>
+<body>
+    <%- include("navbar") -%>
+    <form action="/editStudent" method="post">
+        <div class="editStuBtn">
+            <button type="submit" name="editStuBtn" value="<%= studentDocument.name %>" class="btn btn-info">Edit Record</button>
+            <input type="hidden" name="districtName" value="<%= studentDocument.district %>"></input>
+            <input type="hidden" name="schoolName" value="<%= studentDocument.schoolName %>"></input>
+            <input type="hidden" name="className" value="<%= studentDocument.className %>"></input>
+            <input type="hidden" name="rollNo" value="<%= studentDocument.rollNo %>"></input>
+            <input type="hidden" name="address" value="<%= studentDocument.address %>"></input>
+        </div>
+    </form>
+    <form action="/deleteStudent" method="post">
+        <div class="deleteStuBtn">
+            <button type="submit" name="deleteStuBtn" value="<%= studentDocument.name %>" class="btn btn-dark">Delete Record</button>
+            <input type="hidden" name="districtName" value="<%= studentDocument.district %>"></input>
+            <input type="hidden" name="schoolName" value="<%= studentDocument.schoolName %>"></input>
+            <input type="hidden" name="className" value="<%= studentDocument.className %>"></input>
+            <input type="hidden" name="rollNo" value="<%= studentDocument.rollNo %>"></input>
+        </div>
+    </form>
+    
+    <h1><%= studentDocument.name %></h1>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Name: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= studentDocument.name %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Roll No.: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= studentDocument.rollNo %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Class: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= studentDocument.className %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <P>School: </P>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= studentDocument.schoolName %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Address: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= studentDocument.address %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>District: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= studentDocument.district %></p>
+        </div>
+    </div>
+
+</body>
+</html>

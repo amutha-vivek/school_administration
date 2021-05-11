@@ -1,0 +1,21 @@
+<%- include("header") -%>
+    <title><%= schoolName %></title>
+</head>
+<body>
+    <%- include("navbar") -%>
+    <h1><%= schoolName %></h1>
+    <% classesList.forEach(function(className) { %>
+    <form action="/classPage" method="POST">
+        <div class="card card-classes flex-container" style="width: 10rem;">
+            <div class="card-body">
+              <h5 class="card-title"><%=className%></h5>
+              <button type="submit" name="classBtn" value="<%= className %>" class="btn btn-dark btn-sm btn-classes">Go</button>
+              <input type="hidden" name="districtName" value="<%= districtName %>"></input>
+              <input type="hidden" name="schoolName" value="<%= schoolName %>"></input>
+            </div>
+          </div>
+    </form>
+    <%});%>
+    
+</body>
+</html>

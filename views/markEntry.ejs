@@ -1,0 +1,73 @@
+<%- include("header") -%>
+    <title></title>
+</head>
+<body>
+    <%- include("navbar") -%>
+    <h1><%= name.toUpperCase() %></h1>
+    <form action="/getMarks" method="post">
+      <table class="table table-bordered table-dark" id="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Roll No.</th>
+            <th scope="col">Maths</th>
+            <th scope="col">Science</th>
+            <th scope="col">Social Science</th>
+            <th scope="col">First Language</th>
+            <th scope="col">Second Language</th>
+            <th scope="col">Attendance Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <%const namesList = []%>
+          <%const rollNoList = []%>
+          <%const addressList = []%>
+          <%students.forEach(function(student) {%>
+          <% namesList.push(student.name); %>
+          <% rollNoList.push(student.rollNo); %>
+          <% addressList.push(student.address) %>
+          
+            <tr>
+              <td>
+                <%= student.name %>
+              </td>
+              <td>
+                <%= student.rollNo %>
+              </td>
+              <td>
+                <input type="text" name="maths" class="form-control" required>
+              </td>
+              <td>
+                <input type="text" name="science" class="form-control" required>
+              </td>
+              <td>
+                <input type="text" name="socialScience" class="form-control" required>
+              </td>
+              <td>
+                <input type="text" name="firstLanguage" class="form-control" required>
+              </td>
+              <td>
+                <input type="text" name="secondLanguage" class="form-control" required>
+              </td>
+              <td>
+                <input type="text" name="attendancePercentage" class="form-control" required>
+              </td>
+            </tr>
+
+          
+         <% }); %>
+
+        </tbody>
+        
+          </table>
+          <input type="hidden" name="districtName" value="<%= students[0].district %>"></input>
+          <input type="hidden" name="schoolName" value="<%= students[0].schoolName %>"></input>
+          <input type="hidden" name="className" value="<%= students[0].className %>"></input>
+          <input type="hidden" name="name" value="<%= name %>"></input>
+          <input type="hidden" name="namesList" value="<%= namesList %>"></input>
+          <input type="hidden" name="rollNoList" value="<%= rollNoList %>"></input>
+          <input type="hidden" name="addressList" value="<%= addressList %>"></input>
+          <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+	"_id": {
+		"$oid": "5e191e74d7d785235887373d"
+	},
+	"name": "Teacher10",
+	"handlingClass": "X",
+	"schoolName": "School1",
+	"dateOfJoining": "02-01-2016",
+	"district": "North",
+	"phoneNo": 2.222222222E+09,
+	"email": "teacher10@email.com",
+	"address": "Address10Teacher",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e191e74d7d785235887373e"
+	},
+	"name": "Teacher3",
+	"handlingClass": "III",
+	"schoolName": "School3",
+	"dateOfJoining": "10-02-2010",
+	"district": "East",
+	"phoneNo": 2.222222222E+09,
+	"email": "teacher3@email.com",
+	"address": "Address3Teacher",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e191e74d7d785235887373f"
+	},
+	"name": "Teacher2",
+	"handlingClass": "II",
+	"schoolName": "School4",
+	"dateOfJoining": "27-01-2012",
+	"district": "South",
+	"phoneNo": 3.333333333E+09,
+	"email": "teacher2@email.com",
+	"address": "Address2Teacher",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e191e74d7d7852358873740"
+	},
+	"name": "Teacher7",
+	"handlingClass": "X",
+	"schoolName": "School7",
+	"dateOfJoining": "21-07-2013",
+	"district": "North",
+	"phoneNo": 7.777777777E+09,
+	"email": "teacher7@email.com",
+	"address": "Address7Teacher",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e191f0c72072c00dcbbf139"
+	},
+	"name": "Teacher1",
+	"handlingClass": "I",
+	"schoolName": "School1",
+	"dateOfJoining": "20-06-2014",
+	"district": "North",
+	"phoneNo": 1111111111,
+	"email": "teacher1@email.com",
+	"address": "Address1Teacher",
+	"__v": 0
+}

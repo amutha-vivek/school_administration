@@ -1,0 +1,180 @@
+{
+	"_id": {
+		"$oid": "5e12b91c09d9383a60fd3e5a"
+	},
+	"name": "Student3",
+	"rollNo": 2,
+	"className": "III",
+	"schoolName": "School3",
+	"address": "Address3",
+	"district": "East",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e12b91c09d9383a60fd3e5b"
+	},
+	"name": "Student1",
+	"rollNo": 2,
+	"className": "II",
+	"schoolName": "School4",
+	"address": "Address4",
+	"district": "South",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e12c7c410960602888cfae6"
+	},
+	"name": "Student3",
+	"rollNo": 4,
+	"className": "X",
+	"schoolName": "School7",
+	"address": "address5",
+	"district": "North",
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e17d35e20cd3b447c20c168"
+	},
+	"marks": {
+		"quarterly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"halfyearly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"annual": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		}
+	},
+	"name": "Student3",
+	"rollNo": 4,
+	"className": "X",
+	"schoolName": "School1",
+	"address": "address5",
+	"district": "North",
+	"attendancePercentage": 0,
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e193041352acc31a8a9a8ce"
+	},
+	"marks": {
+		"quarterly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"halfyearly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"annual": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		}
+	},
+	"name": "Student2",
+	"rollNo": 2,
+	"className": "III",
+	"schoolName": "School3",
+	"address": "Address2",
+	"district": "East",
+	"attendancePercentage": 0,
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e193082db5e14149404f659"
+	},
+	"marks": {
+		"quarterly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"halfyearly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"annual": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		}
+	},
+	"name": "Student2",
+	"rollNo": 2,
+	"className": "III",
+	"schoolName": "School3",
+	"address": "Address2",
+	"district": "East",
+	"attendancePercentage": 0,
+	"__v": 0
+}
+{
+	"_id": {
+		"$oid": "5e19781f3fd4863fb4da4c59"
+	},
+	"marks": {
+		"quarterly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"halfyearly": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		},
+		"annual": {
+			"maths": 0,
+			"science": 0,
+			"socialScience": 0,
+			"firstLanguage": 0,
+			"secondLanguage": 0
+		}
+	},
+	"name": "Student3",
+	"rollNo": 3,
+	"className": "I",
+	"schoolName": "School1",
+	"address": "address3",
+	"district": "North",
+	"attendancePercentage": 0,
+	"__v": 0
+}

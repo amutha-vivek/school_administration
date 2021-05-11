@@ -1,0 +1,67 @@
+<%- include("header") -%>
+    <title><%= teacher.name %></title>
+    <script src="js\jquery\jquery-3.4.1.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+</head>
+<body>
+    <%- include("navbar") -%>
+    
+    <h1>Handling teacher of Class <%= teacher.handlingClass  %></h1>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Name: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.name %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Handling Class: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.handlingClass %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>School: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.schoolName %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <P>Date Of Joining: </P>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.dateOfJoining %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>District: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.district %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Phone No.: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.phoneNo %></p>
+        </div>
+    </div>
+    <div class="row student-info-row">
+        <div class="col-lg-6 student-info-div">
+            <p>Email: </p>
+        </div>
+        <div class="col-lg-6 student-info-div">
+            <p><%= teacher.email %></p>
+        </div>
+    </div>
+</body>
+</html>

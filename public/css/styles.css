@@ -1,0 +1,192 @@
+html {
+  font-family: "helvetica neue";
+}
+
+body {
+  /* e4e9fd */
+  /* background-color: #e4e9fd; */
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+  min-height: 1000px;
+
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+.top-title {
+  margin: 10px;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  /* margin: auto; */
+}
+
+.west {
+  margin-left: auto;
+}
+.east {
+  margin-right: auto;
+}
+.north {
+  margin: auto;
+}
+.south {
+  margin: auto;
+}
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(245, 245, 245, 0.4);
+}
+.card-body {
+  text-align: center;
+}
+
+.box {
+  width: 80%;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(245, 245, 245, 0.4);
+}
+
+.item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.item:last-child {
+  border-bottom: 0;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.card-classes {
+  margin-top: 20px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin-bottom: 20px;
+}
+.btn-index,
+.btn-classes {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #a683e3;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #a683e3;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #a683e3;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.student-info-div {
+  background: rgba(245, 245, 245, 0.4);
+  text-align: left;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.student-info-row {
+  width: 70%;
+  margin: auto;
+}
+
+.add-student-btn-div {
+  text-align: end;
+  margin-right: 30px;
+}
+
+.form-group {
+  width: 60%;
+  margin: auto;
+}
+
+.add-student-btn-div-addStudentpage {
+  margin-top: 30px;
+  text-align: end;
+  margin-right: 270px;
+}
+
+.add-student-form {
+  margin-top: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.flex-container {
+  display: block;
+  float: left;
+  margin: 30px;
+}
+.deleteStuBtn {
+  text-align: end;
+  margin-right: 30px;
+}
+.editStuBtn {
+  text-align: end;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.add-mark-dropdown {
+  text-align: end;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+#login-form{
+  margin: auto; 
+  border: solid 1px grey;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 2mm;
+  font-weight: 700;
+  
+}
+
+.login-title {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 30px;
+  color: #515250;
+}
+
+.login-subtitle {
+  /* text-align: center; */
+  padding: 20px;
+  color: #515250;
+}
+
+.login-page {
+  background: white;
+}
+
+.handling-teacher-btn-div {
+  text-align: start;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+

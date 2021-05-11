@@ -1,0 +1,26 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abishek",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "check-internet-connected": "^2.0.4",
+    "dns": "^0.2.2",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.2.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.4",
+    "nodeQuery": "0.0.9-1",
+    "popups": "^1.1.3"
+  }
+}
